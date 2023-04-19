@@ -10,3 +10,5 @@ EXPOSE 8080
 RUN useradd springpet
 USER ${user}
 CMD [ "java", "-jar", "/spring-petclinic-2.7.3.jar" ]
+
+
