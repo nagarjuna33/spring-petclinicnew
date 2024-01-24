@@ -1,5 +1,5 @@
 ---
-pool: "ubuntu"
+pool: "myagent"
   
 
 name: springpet
