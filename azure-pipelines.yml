@@ -1,5 +1,5 @@
 ---
-pool: "azure pipeline"
+pool: "azure pipelines"
   
 
 name: springpet
