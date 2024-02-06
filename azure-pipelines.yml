@@ -1,5 +1,5 @@
 ---
-pool: "testagent"
+pool: "azure pipeline"
   
 
 name: springpet
