@@ -1,18 +1,20 @@
-pipeline{
-agent any
-stages {
-     stage('scm') {
-        steps {
-               git url: "https://github.com/nagarjuna33/spring-petclinicnew.git", 
-                     branch:"main"
-               }
-     }
-
-        stage ('SONAR QUBE SCAN') {
+---
+pipeline {
+    agent {label ('node1')}
+    stages {
+        stage('scm') {
+            steps 
+            {
+                git url: 'https://github.com/nagarjuna33/spring-petclinicnew.git', branch: 'main'
+            }
+        }
+        stage('build'){
             steps{
-                sh 'mvn clean install'
+                rtMavenRun (
+                    pom: 'pom.xml'
+                    goals: 'clean, package'
+                )
+            }
+        }
+    }
 }
-}
-}
-}
-    
