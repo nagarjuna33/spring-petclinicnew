@@ -1,4 +1,3 @@
----
 pipeline {
     agent {label ('node1')}
     stages {
