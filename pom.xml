@@ -390,3 +390,11 @@
   </profiles>
 
 </project>
+
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>a0bzwk8sricpm-artifactory-primary-0-releases</name>
+        <url>https://nagarjunaartifacttest.jfrog.io/artifactory/arjunrepo-libs-release-local</url>
+    </repository>
+</distributionManagement>
