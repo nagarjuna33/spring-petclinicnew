@@ -9,10 +9,7 @@ pipeline {
         }
         stage('build'){
             steps{
-                rtMavenRun (
-                    pom: 'pom.xml'
-                    goals: 'clean, package'
-                )
+            sh 'mvn clean package'
             }
         }
     }
