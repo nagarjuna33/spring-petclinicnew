@@ -397,7 +397,7 @@
     <repository>
         <id>central</id>
         <name>a0pylkzcekpa7-artifactory-primary-0-releases</name>
-        <url>https://nagarjunaartifact.jfrog.io/artifactory/testrepo-libs-release-local</url>
+        <url>https://nagarjunaartifact.jfrog.io/artifactory/myrepo-libs-release-local</url>
     </repository>
 </distributionManagement>
 </project>
