@@ -400,4 +400,4 @@
         <url>https://nagarjunaartifact.jfrog.io/artifactory/myrepo-libs-release</url>
     </repository>
 </distributionManagement>
-</project>
+  </project>
