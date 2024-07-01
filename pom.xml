@@ -16,9 +16,9 @@
 
        <!-- SonarQube server URL -->
         <sonar.host.url>https://sonarcloud.io/</sonar.host.url>
-              <sonar.projectKey>sonarmaventest_jenkins</sonar.projectKey>
+              <sonar.projectKey>mysonarscan123_jenkins</sonar.projectKey>
         <!-- Organization key (if applicable) -->
-        <sonar.organization>sonarmaventest</sonar.organization>
+        <sonar.organization>mysonarscan123</sonar.organization>
      <!-- Generic properties -->
     <java.version>11</java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
