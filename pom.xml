@@ -400,7 +400,7 @@
         <url>https://nagarjunaartifact.jfrog.io/artifactory/testrepo-libs-release-local</url>
     </repository>
     <snapshotRepository>
-        <id>snapshots</id>
+        <id>central</id>
         <name>a0pylkzcekpa7-artifactory-primary-0-snapshots</name>
         <url>https://nagarjunaartifact.jfrog.io/artifactory/testrepo-libs-release-local</url>
     </snapshotRepository>
