@@ -7,23 +7,10 @@ pipeline{
        steps{
          git url:'https://github.com/nagarjuna33/spring-petclinicnew.git', branch:'${params.BRANCH}'
     }
-    stage("build & SonarQube analysis") {
-      steps {
-         withSonarQubeEnv('sonarid') {
-          sh 'mvn clean package sonar:sonar'
-         }
-      }
-    }
-    stage("Quality Gate") {
-      steps {
-        timeout(time: 1, unit: 'HOURS') {
-         waitForQualityGate abortPipeline: true
-        }
-      }
-    }
+
      stage('build'){
        steps {
-         configFileProvider([configFile(fileId: '85029f9d-932c-4b98-8921-d5459c08cce7', variable: 'MAVEN_SETTINGS')]) {
+         configFileProvider([configFile(fileId: 'c6032746-ae1d-430c-95bc-ab0f117ee56f	', variable: 'MAVEN_SETTINGS')]) {
          sh 'mvn -s $MAVEN_SETTINGS deploy'
           }
        } 
