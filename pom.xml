@@ -399,10 +399,5 @@
         <name>a0pylkzcekpa7-artifactory-primary-0-releases</name>
         <url>https://nagarjunaartifact.jfrog.io/artifactory/jfrogrepo</url>
     </repository>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>a0pylkzcekpa7-artifactory-primary-0-snapshots</name>
-        <url>https://nagarjunaartifact.jfrog.io/artifactory/jfrogrepo</url>
-    </snapshotRepository>
 </distributionManagement>
   </project>
